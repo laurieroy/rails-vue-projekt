@@ -1,24 +1,14 @@
-# README
+# PROJEKT - A project management app	WIP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This was built following a web-crunch [tutorial](https://web-crunch.com/posts/lets-build-with-ruby-on-rails-project-management-app) that is a few years old now. I updated to the latest Rails 5.2 , as it's been a while since I've done a project in 5.
 
-Things you may want to cover:
+UI is bulma, he also uses some tachyons functional styling
+Frontend: Vue
+Auth: Devise with the confirmable option (mail is caught in dev using mailcatcher)
+Database: PostgreSQL
 
-* Ruby version
+### Models:
+- User: name, email
+<!-- - Team: -->
+<!-- - Project: -->
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
