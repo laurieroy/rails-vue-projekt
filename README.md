@@ -9,6 +9,7 @@ Database: PostgreSQL
 
 ### Models:
 - User: name, email
-<!-- - Team: -->
-<!-- - Project: -->
+- Team:
+- Project:
 
+safe_join: no trailing , when mapping over a list
