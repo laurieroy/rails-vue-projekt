@@ -1,7 +1,9 @@
+import TurbolinksAdapter from 'vue-turbolinks'
 import Vue from "vue/dist/vue.esm";
 import VueResource from "vue-resource";
 
 Vue.use(VueResource);
+Vue.use(TurbolinksAdapter);
 
 document.addEventListener("turbolinks:load", () => {
   Vue.http.headers.common["X-CSRF-Token"] = document
@@ -20,7 +22,7 @@ document.addEventListener("turbolinks:load", () => {
     });
     team.users_attributes = users_attributes;
 
-    var app = new Vue({
+    const app = new Vue({
       el: element,
       data: function () {
         return {
